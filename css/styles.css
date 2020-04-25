@@ -1,0 +1,137 @@
+body {
+  font-size: 12px;
+  color: #000000;
+  background-color: #086A87;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #E0F8F7;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h3 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #086A87;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #086A87;
+}
+#nav-list a:hover {
+  background-color: #E0F8F7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/* FOOTER */
+.panel-footer {
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 10px;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .container .jumbotron {
+    height: 100%;
+	font-size:18px;
+}
+  .row {
+	  	margin-left:5px;
+		margin-right:5px;
+		font-size:18px;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .jumbotron {
+    height: 100%;
+	width: 100%;
+	font-size:20px;
+  }
+  /* End Home Page */
+  .row {
+	  	margin-left:5px;
+		margin-right:5px;
+		font-size:20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 100%;
+	font-size:20px;
+  }
+  .row {
+	  	margin-left:5px;
+		margin-right:5px;
+		font-size:20px;
+  }
+#nav-list {
+	width: 110%;
+  /* End Home Page */
+}
+#header-nav {
+
+	margin-left:0;	
+}
+
+}
+#text {  
+	background-color:#E0F8F7;
+	float: left;
+	margin-top:1px;
+	border: 15px solid #086A87;
+
+}
+#text2 { 
+	text-align:center;
+	color: #222; 
+	font-size:26px;
+	border: 0.25px solid #086A87;	
+}
+p {
+	font-size:18px;
+	font-family: Comic Sans MS, Arial, Times New Roman;
+	text-align:center;
+	margin-top: auto;
+	margin-left:auto;
+    border: 0;
+}
